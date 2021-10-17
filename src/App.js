@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import StockAbout from './components/stockAbout';
+import StockContact from './components/stockContact';
+import StockFooter from './components/stockFooter';
+import StockHome from './components/stockHome';
+import StockNavbar from './components/stockNavbar';
+import StockOffer from './components/stockOffer';
+import StockPricing from './components/stockPricing';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (<React.Fragment>
+      <StockNavbar/>
+      <div className="App">
+        <StockHome/>
+        <StockAbout />
+        <StockOffer/>
+        <StockPricing/>
+        <StockContact/>
+        <StockFooter/>
+      </div>
+    </React.Fragment>
   );
 }
 

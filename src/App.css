@@ -1,38 +1,306 @@
-.App {
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  /* border: 1px solid red; */
+}
+img,
+svg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card svg,
+.card img {
+  width: 60px;
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h3 {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr {
+  margin: 10px 20%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  color: gray;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  background-color: rgb(0, 0, 75);
+  color: white;
+  padding: 13px 25px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+button,
+.hover {
+  transition: 0.5s ease;
+}
+button:hover,
+.hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 2px 50px rgba(128, 128, 128, 0.5);
+}
+.App h1 {
+  margin-bottom: 20px;
+}
+/* =========== navbar ============= */
+.navbar {
+  width: 100%;
+  height: 70px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: white;
+  box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.3);
+  position: sticky;
+  top: 0px;
+  padding: 0px 7%;
+  z-index: 10;
+}
+#nav1 {
+  display: block;
+}
+.navlinks {
+  padding-left: 38%;
+}
+#menu {
+  display: none;
+}
+.navlinks ul {
+  list-style: none;
+  padding: 0px;
+}
+.navlinks ul li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+/* ========= home ============= */
+#home,
+#about,
+#offer,
+#pricing,
+#contact {
+  padding-top: 100px;
+}
+.hero-sec,
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hero-sec {
+  margin: 0px 11%;
+  margin-bottom: 100px;
+}
+.hero-sec .textbox {
+  padding: 50px;
+}
+.hero-sec p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.hero-sec button {
+  margin-right: 20px;
+}
+.container {
+  margin: 50px 7%;
+}
+.div50 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+/* ========== about ============== */
+.textbox {
+  padding: 0px 70px;
+}
+.container p {
+  margin-bottom: 20px;
+}
+.textbox ul {
+  margin: 20px 0px;
+}
+.textbox ul li {
+  margin: 10px 0px;
+}
+.card {
+  width: 310px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px;
+  margin: 10px 0px;
+  box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.3);
+}
+/* ========== offer ==================== */
+#offer .div50 {
+  padding: 0px 50px;
+}
+#offer .textbox {
+  padding: 0px;
+}
+#offer .container .div50:first-child .textbox {
+  text-align: right;
+}
+/* =========== pricing ============== */
+#pricing,
+#contact {
+  text-align: center;
+  margin: 0px 12%;
+}
+.pricing-text {
+  padding: 0px 20%;
+  margin-top: 50px;
+}
+#pricing h1 {
+  font-size: 35px;
+}
+.card button {
+  margin-top: 20px;
+}
+/* =========== contact =========  */
+.card h3 {
+  margin: 20px;
+}
+.card p {
+  margin: 5px;
+}
+.address {
+  box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.3);
+  border-radius: 8px;
+  margin: 50px 7%;
+  padding: 20px;
+  display: flex;
+  align-items: column;
+  text-align: left;
+  flex-wrap: wrap;
+}
+.address h3 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.address div:nth-child(1),
+.address div:nth-child(2) {
+  width: 200px;
+  padding: 0px 20px;
+  margin: 20px 0px;
+}
+.address iframe {
+  width: 550px;
+}
+/* ======== footer ========= */
+footer {
+  padding: 50px 7%;
+  background-color: rgb(45, 45, 45);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+footer > div {
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+footer ul {
+  list-style: none;
+  margin: 0px 25px;
+  padding: 20px 0px;
+}
+footer ul li {
+  padding: 5px 0px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1150px) {
+  #home .container {
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+  .card {
+    margin: 10px;
+  }
+  .navlinks {
+    padding-left: 20%;
+  }
+}
+/* ======================= tablet devices ============================== */
+@media screen and (max-width: 900px) {
+  .navlinks {
+    padding-left: 5%;
+  }
+  .navlinks ul li {
+    display: inline-block;
+    margin: 0px 10px;
+  }
+  .container {
+    justify-content: center;
+  }
+  .div50 {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .hero-sec {
+    margin-bottom: 50px;
+  }
+  .hero-sec,
+  #pricing,
+  #contact {
+    margin: 0px 7%;
+  }
+  .hero-sec .textbox,
+  #offer .div50,
+  .textbox,
+  .pricing-text {
+    padding: 0px;
+  }
+  #offer .container .div50:first-child .textbox {
+    text-align: left;
+  }
+  footer > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  footer ul {
+    margin: 0px;
+  }
+}
+/* ======================= mobile devices ============================== */
+@media screen and (max-width: 500px) {
+  #menu {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    cursor: pointer;
+    width: 24px;
+  }
+  #nav1 {
+    display: none;
+  }
+  .navlinks {
+    padding-left: 0px;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    background-color: white;
+    box-shadow: 0px 3px 6px rgba(128, 128, 128, 0.5);
+    width: 100%;
+  }
+  .navlinks ul {
+    padding: 20px 0px;
+  }
+  .navlinks ul li {
+    display: block;
+    padding: 10px 20px;
+  }
+  .navlinks ul li a {
+    width: 100%;
+  }
+  .navlinks ul li a:hover {
+    color: darkred;
+  }
+  .address div:nth-child(1),
+  .address div:nth-child(2),
+  .address iframe {
+    width: 100%;
   }
 }
