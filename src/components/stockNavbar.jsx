@@ -27,25 +27,28 @@ function StockNavbar() {
           </ul>
         </nav>
         {menuhide ? null : (
-          <nav className="navlinks" id="nav2">
-            <ul>
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#offer">What We Offer</a>
-              </li>
-              <li>
-                <a href="#pricing">Pricing</a>
-              </li>
-              <li>
-                <a href="#contact">Contact Us</a>
-              </li>
-            </ul>
-          </nav>
+          <div>
+            <nav className="navlinks" id="nav2">
+              <ul>
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#offer">What We Offer</a>
+                </li>
+                <li>
+                  <a href="#pricing">Pricing</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+            <div className="closearea" onClick={() => setMenuhide(true)}></div>
+          </div>
         )}
         <div id="menu" onClick={() => setMenuhide(!menuhide)}>
           <svg
