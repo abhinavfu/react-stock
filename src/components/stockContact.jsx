@@ -13,7 +13,7 @@ function StockContact() {
               focusable="false"
               data-prefix="fas"
               data-icon="paper-plane"
-              class="svg-inline--fa fa-paper-plane fa-w-16"
+              className="svg-inline--fa fa-paper-plane fa-w-16"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
@@ -34,7 +34,7 @@ function StockContact() {
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-envelope-open"
+              className="bi bi-envelope-open"
               viewBox="0 0 16 16"
             >
               <path d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.818l5.724 3.465L8 8.917l1.276.766L15 6.218V5.4a1 1 0 0 0-.53-.882l-6-3.2zM15 7.388l-4.754 2.877L15 13.117v-5.73zm-.035 6.874L8 10.083l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738zM1 13.117l4.754-2.852L1 7.387v5.73zM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2z" />
@@ -47,7 +47,7 @@ function StockContact() {
           <div className="card">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 24 24"
+              enableBackground="new 0 0 24 24"
               height="24px"
               viewBox="0 0 24 24"
               width="24px"
@@ -85,6 +85,7 @@ function StockContact() {
             src="https://www.google.com/maps/d/embed?mid=1IEVwjHNKZcYI5LKHZfRSFXEKyzg"
             width="80%"
             height="auto"
+            title="Delhi address"
           ></iframe>
         </div>
       </div>
