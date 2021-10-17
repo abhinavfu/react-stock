@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-stock/static/css/main.91c605d3.chunk.css",
+    "main.js": "/react-stock/static/js/main.842d3dfc.chunk.js",
+    "main.js.map": "/react-stock/static/js/main.842d3dfc.chunk.js.map",
+    "runtime-main.js": "/react-stock/static/js/runtime-main.dcfcc840.js",
+    "runtime-main.js.map": "/react-stock/static/js/runtime-main.dcfcc840.js.map",
+    "static/js/2.701de304.chunk.js": "/react-stock/static/js/2.701de304.chunk.js",
+    "static/js/2.701de304.chunk.js.map": "/react-stock/static/js/2.701de304.chunk.js.map",
+    "static/js/3.6f0a7949.chunk.js": "/react-stock/static/js/3.6f0a7949.chunk.js",
+    "static/js/3.6f0a7949.chunk.js.map": "/react-stock/static/js/3.6f0a7949.chunk.js.map",
+    "index.html": "/react-stock/index.html",
+    "static/css/main.91c605d3.chunk.css.map": "/react-stock/static/css/main.91c605d3.chunk.css.map",
+    "static/js/2.701de304.chunk.js.LICENSE.txt": "/react-stock/static/js/2.701de304.chunk.js.LICENSE.txt",
+    "static/media/about.31f92272.png": "/react-stock/static/media/about.31f92272.png",
+    "static/media/demat.28457780.png": "/react-stock/static/media/demat.28457780.png",
+    "static/media/hero1.fc904c4c.svg": "/react-stock/static/media/hero1.fc904c4c.svg",
+    "static/media/herocard1.2f096805.svg": "/react-stock/static/media/herocard1.2f096805.svg",
+    "static/media/herocard2.ed1fda36.svg": "/react-stock/static/media/herocard2.ed1fda36.svg",
+    "static/media/interface.0f28aa34.png": "/react-stock/static/media/interface.0f28aa34.png",
+    "static/media/multiple.61cd8b06.png": "/react-stock/static/media/multiple.61cd8b06.png",
+    "static/media/zero.7d5a9a82.png": "/react-stock/static/media/zero.7d5a9a82.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcfcc840.js",
+    "static/js/2.701de304.chunk.js",
+    "static/css/main.91c605d3.chunk.css",
+    "static/js/main.842d3dfc.chunk.js"
+  ]
+}
