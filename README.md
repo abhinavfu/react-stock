@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Cloning the Firstock Homepage
 
- [Create React App](https://github.com/facebook/create-react-app).
+ [Stock Homepage](https://abhinavfu.github.io/react-stock/)
 
